@@ -1,0 +1,24 @@
+{
+  "name": "Blink Demo",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.3",
+    "@hono/swagger-ui": "^0.3.0",
+    "@hono/zod-openapi": "^0.14.5",
+    "@jup-ag/api": "^6.0.23",
+    "@solana/web3.js": "^1.91.8",
+    "axios": "^1.7.2",
+    "hono": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/bs58": "^4.0.4",
+    "@types/node": "^20.11.17",
+    "prettier": "^3.3.2",
+    "tsx": "^4.7.1"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
